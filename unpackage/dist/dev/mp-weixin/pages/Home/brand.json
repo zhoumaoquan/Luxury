@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "品牌介绍",
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-parse": "/uview-ui/components/u-parse/u-parse"
+  }
+}

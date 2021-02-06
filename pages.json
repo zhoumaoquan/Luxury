@@ -1,0 +1,171 @@
+{	
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/Main/index",
+			"style": {
+				"navigationBarTitleText": "寄卖回收"
+			}
+		},
+		{
+			"path": "pages/Profile/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor":"#DAB866",
+				"backgroundColor":"#DAB866",
+				"backgroundColorTop":"#DAB866"
+			}
+		}
+	    ,{
+            "path" : "pages/Home/brand",
+            "style" : {
+				"navigationBarTitleText": "品牌介绍"
+			}
+        }
+        ,{
+            "path" : "pages/Main/consignment",
+            "style" : {
+				"navigationBarTitleText": " "
+			}
+        }
+        ,{
+            "path" : "pages/Main/protocol",
+            "style" : {
+				"navigationBarTitleText": "小竹子寄卖协议"
+			}
+        }
+        ,{
+            "path" : "pages/Main/success",
+            "style" : {
+				"navigationBarTitleText": "提交成功",
+				"navigationBarBackgroundColor":"#DAB866",
+				"navigationBarTextStyle": "white",
+				"backgroundColor":"#DAB866",
+				"backgroundColorTop":"#DAB866",
+				"disableScroll": true
+			}
+        }
+        ,{
+            "path" : "pages/Main/Mail",
+            "style" : {
+				"navigationBarTitleText": "邮寄方式"
+			}
+        }
+        ,{
+            "path" : "pages/Profile/Login",
+            "style" : {
+				"navigationBarTitleText": "授权登录"
+			}
+        }
+        ,{
+            "path" : "pages/Profile/userdata/myData",
+            "style" : {
+				"navigationBarTitleText": "个人资料"
+			}
+        }
+        ,{
+            "path" : "pages/Profile/userdata/nickname",
+            "style" : {
+				"navigationBarTitleText": "昵称"
+			}
+        }
+        ,{
+            "path" : "pages/Profile/userdata/address",
+            "style" : {
+				"navigationBarTitleText": "常用地址"
+			}
+        }
+        ,{
+            "path" : "pages/Profile/userdata/addAddress",
+            "style" : {
+				"navigationBarTitleText": "添加地址"
+			}
+        }
+        ,{
+            "path" : "pages/Profile/help/helpList",
+            "style" : {
+				"navigationBarTitleText": "帮助文档"
+			}
+        }
+        ,{
+            "path" : "pages/Profile/help/helpDetail",
+            "style" : {
+				"navigationBarTitleText": "帮助详情"
+			}
+        }
+        ,{
+            "path" : "pages/Profile/feedback",
+            "style" : {
+				"navigationBarTitleText": "意见反馈"
+			}
+        }
+        ,{
+            "path" : "pages/Profile/order/orderList",
+            "style" : {
+				"navigationBarTitleText": " "
+			}
+        }
+        ,{
+            "path" : "pages/Profile/order/orderDetail",
+            "style" : {
+				"navigationBarTitleText": " ",
+				"navigationBarBackgroundColor":"#DAB866",
+				"navigationBarTextStyle": "white",
+				"backgroundColor":"#DAB866",
+				"backgroundColorTop":"#DAB866"
+			}
+        }
+        ,{
+            "path" : "pages/Home/webview",
+            "style" : {
+				
+			}
+        }
+        ,{
+            "path" : "pages/Home/imgtext",
+            "style" : {
+				"navigationBarTitleText": "图文详情"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "小竹子奢侈品",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#ADADAD",
+		"selectedColor":"#DAB866",
+		"backgroundColor":"#FFFFFF",
+		"borderStyle": "white",
+		"list": [
+			{
+				"pagePath": "pages/Home/index",
+				"text": "首页",
+				"iconPath": "static/TabBar/home.png",
+				"selectedIconPath": "static/TabBar/home-active.png"
+			},
+			{
+				"pagePath": "pages/Main/index",
+				"text": "寄卖回收",
+				"iconPath": "static/TabBar/main.png",
+				"selectedIconPath": "static/TabBar/main-active.png"
+			},
+			{
+				"pagePath": "pages/Profile/index",
+				"text": "我的",
+				"iconPath": "static/TabBar/profile.png",
+				"selectedIconPath": "static/TabBar/profile-active.png"
+			}
+		]
+	}
+}

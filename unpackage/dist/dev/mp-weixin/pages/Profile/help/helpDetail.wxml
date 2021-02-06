@@ -1,0 +1,1 @@
+<view class="container"><view class="app-parting"></view><view class="app-box"><view class="app-box-title"><text>{{title}}</text></view><u-parse vue-id="427f86d6-1" html="{{content}}" bind:__l="__l"></u-parse></view></view>

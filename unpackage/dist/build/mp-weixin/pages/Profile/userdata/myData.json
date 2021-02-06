@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "个人资料",
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-skeleton": "/uview-ui/components/u-skeleton/u-skeleton",
+    "u-popup": "/uview-ui/components/u-popup/u-popup"
+  }
+}

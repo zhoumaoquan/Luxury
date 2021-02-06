@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "昵称",
+  "usingComponents": {
+    "u-skeleton": "/uview-ui/components/u-skeleton/u-skeleton"
+  }
+}

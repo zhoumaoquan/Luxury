@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "提交成功",
+  "navigationBarBackgroundColor": "#DAB866",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#DAB866",
+  "backgroundColorTop": "#DAB866",
+  "disableScroll": true,
+  "usingComponents": {}
+}

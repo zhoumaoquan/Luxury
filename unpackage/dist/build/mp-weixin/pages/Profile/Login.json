@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "授权登录",
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-toast": "/uview-ui/components/u-toast/u-toast"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "常用地址",
+  "usingComponents": {
+    "u-empty": "/uview-ui/components/u-empty/u-empty"
+  }
+}

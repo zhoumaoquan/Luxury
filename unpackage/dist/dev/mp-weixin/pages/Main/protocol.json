@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "小竹子寄卖协议",
+  "usingComponents": {
+    "u-parse": "/uview-ui/components/u-parse/u-parse",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-image": "/uview-ui/components/u-image/u-image"
+  }
+}

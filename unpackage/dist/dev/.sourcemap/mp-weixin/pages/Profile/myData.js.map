@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///C:/Users/Administrator/Desktop/Luxury/main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,iG;AACAA,UAAU,CAACC,eAAD,CAAV,C","file":"pages/Profile/myData.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/Profile/myData.vue'\ncreatePage(Page)"],"sourceRoot":""}

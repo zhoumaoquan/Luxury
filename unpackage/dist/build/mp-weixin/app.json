@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/Home/index",
+    "pages/Main/index",
+    "pages/Profile/index",
+    "pages/Home/brand",
+    "pages/Main/consignment",
+    "pages/Main/protocol",
+    "pages/Main/success",
+    "pages/Main/Mail",
+    "pages/Profile/Login",
+    "pages/Profile/userdata/myData",
+    "pages/Profile/userdata/nickname",
+    "pages/Profile/userdata/address",
+    "pages/Profile/userdata/addAddress",
+    "pages/Profile/help/helpList",
+    "pages/Profile/help/helpDetail",
+    "pages/Profile/feedback",
+    "pages/Profile/order/orderList",
+    "pages/Profile/order/orderDetail",
+    "pages/Home/webview",
+    "pages/Home/imgtext"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小竹子奢侈品",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#ADADAD",
+    "selectedColor": "#DAB866",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/Home/index",
+        "text": "首页",
+        "iconPath": "static/TabBar/home.png",
+        "selectedIconPath": "static/TabBar/home-active.png"
+      },
+      {
+        "pagePath": "pages/Main/index",
+        "text": "寄卖回收",
+        "iconPath": "static/TabBar/main.png",
+        "selectedIconPath": "static/TabBar/main-active.png"
+      },
+      {
+        "pagePath": "pages/Profile/index",
+        "text": "我的",
+        "iconPath": "static/TabBar/profile.png",
+        "selectedIconPath": "static/TabBar/profile-active.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
